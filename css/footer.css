@@ -1,0 +1,140 @@
+.footer {
+
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(21, 18, 18);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    box-shadow: 0px 4px 10px #000;
+}
+
+.seguranca {
+
+    align-items: center;
+}
+
+.footer__headline {
+   
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    color: rgb(299,185,48);
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.footer__list {
+    
+    text-align: center;
+    font-family: 'Helvetica';
+    text-align: center;
+    list-style: none;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 10pt;
+}
+
+.logo_footer {
+    margin-top: 15px;
+}
+
+.links {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgb(299,185,48);
+}
+
+.privacidade {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alvara{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.termos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contato {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgb(299,185,48);
+ }
+
+.telefone {
+    color: rgb(132,23,32);
+    font-size: 12;
+}
+
+.telefone_txt {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.email {
+    color: rgb(132,23,32);
+    font-size: 12;
+}
+
+.email_txt {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.endereco {
+    color: rgb(132,23,32);
+    font-size: 12;
+}
+
+.endereco_txt {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+   
+}
+
+.rede_social {
+    display: flexbox;
+    margin-top: 30px;
+    font-size: 12;
+}
+
+.facebook {
+    display:inline-flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+
+}
+
+.instagram {
+    display:inline-flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+  
+}
+
+.youtube {
+    display:inline-flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+
+.txt {
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.logo_social { 
+    margin-right: 10px;
+}

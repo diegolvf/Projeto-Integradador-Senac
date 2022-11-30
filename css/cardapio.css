@@ -1,0 +1,29 @@
+@import "./footer.css";
+.cardapioMenu{
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(..//img/marmitas.jpg);
+    background-size: cover;
+}
+
+.diferenciais ul {
+    width: 500px;
+    background-color: #7e211f;
+    border: none;
+    height: 500px;
+   
+    box-shadow: 0px 4px 10px #000;
+}
+
+.lista {
+    margin: auto;
+    list-style: disc;
+    color: #ececec;
+    padding: 100px;
+    text-align: justify;
+    line-height: 2.0;
+    font-size: 12pt;
+}

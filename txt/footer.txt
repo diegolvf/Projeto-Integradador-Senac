@@ -1,0 +1,139 @@
+<footer> 
+  <div>
+    <h2 class="footer__headline">Navigation</h2>
+    <ul class="footer__list">
+      <li>nav 1</li>
+      <li>nav 2</li>
+      <li>nav 3</li>
+      <li>nav 4</li>
+      <li>nav 5</li>
+      <li>nav 6</li>
+      <li>nav 7</li>
+    </ul>
+  </div>
+  <div>
+    <h2 class="footer__headline">Follow Us</h2>
+    <ul class="footer__list">
+      <li>social 1</li>
+      <li>social 2</li>
+      <li>social 3</li>
+    </ul>
+  </div>
+  <div>
+    <h2 class="footer__headline">Contact</h2>
+    <ul class="footer__list">
+      <li>Adress</li>
+      <li>Phone</li>
+      <li>Email</li>
+      <li>Website</li>
+    </ul>
+  </div>
+</footer>
+
+
+
+
+.footer {
+
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(21, 18, 18);
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  padding-top:  20px;
+  padding-bottom: 20px;
+
+}
+
+.seguranca {
+
+  align-items: center;
+}
+
+.footer__headline {
+ 
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Helvetica';
+  color: rgb(132,23,32);
+}
+
+.footer__list {
+  
+  text-align: center;
+  font-family: 'Helvetica';
+  text-align: center;
+  list-style: none;
+  padding: 20px;
+  margin: 0px;
+  color: whitesmoke;
+}
+
+.telefone {
+
+  color: rgb(132,23,32);
+}
+
+.telefone_txt {
+  color: whitesmoke;
+}
+
+.email {
+  
+  color: rgb(132,23,32);
+}
+
+.email_txt {
+
+  color: whitesmoke;
+}
+
+.endereco {
+  color: rgb(132,23,32);
+}
+
+.endereco_txt {
+  color: whitesmoke;
+}
+
+.rede_social {
+  display: flexbox;
+  margin: 30px;
+}
+
+.facebook {
+  display:inline-flex;
+  align-items: center;
+  text-align: center;
+  margin: 15px;
+
+}
+
+
+.instagram {
+  display:inline-flex;
+  align-items: center;
+  text-align: center;
+  margin: 15px;
+
+}
+
+
+
+.youtube {
+  display:inline-flex;
+  align-items: center;
+  text-align: center;
+  margin: 15px;
+}
+
+.txt {
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.logo_social { 
+  margin-right: 10px;
+}

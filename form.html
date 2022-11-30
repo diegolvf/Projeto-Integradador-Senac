@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//zipcodemap/form.html">
+    <title>Formulário</title>
+</head>
+<body>
+    <section class="localizacao">
+        <h2>Contato</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome." autocomplete="off" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email." autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem." required></textarea>
+            <button type="submit">Enviar</button>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.226511213583!2d-47.4541105!3d-23.5664096!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa4d74b635b225776!2sMarmitaria%20Rodrigues!5e0!3m2!1spt-BR!2sbr!4v1667499240749!5m2!1spt-BR!2sbr" width="410" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <input type="hidden" name="accessKey" value="91a0dd0a-4716-419b-b3b0-27c1d44b4cbc">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/separado/obrigado.html"> 
+            
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,317 @@
+*{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+ a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: rgb(299,185,48);
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-right: 500px;
+    
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #7e211f;
+    height: 9vh;
+  }
+  
+  
+  .nav-list {
+    list-style:none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 2px;
+    margin-left: 40px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #ececec;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 999px) {
+    body {
+      overflow-x: hidden;
+    }
+    .nav-list {
+      display: flex;
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: #7e211f ;
+      opacity: 90%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }
+  
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+} */
+
+.cardapio_titulo {
+  box-shadow: 0px 4px 10px #000;
+  background-color: #7e211f;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ececec;
+}
+
+.cardapio {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.about-section{
+    background: url(..//img/Fachada\ Restaurante.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #ececec;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.inner-container{
+    color: #ececec;
+    width: 45%;
+    float: right;
+    background-color: #7e211f;
+    box-shadow: 0px 4px 10px #000;
+    padding: 130px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.inner-container .text{
+    font-size: 14px;
+    color: #f7f7f7;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+   
+    color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+.informacao{
+  background-color: #7e211f;
+  box-shadow: 0px 4px 10px #000;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ececec;
+}
+
+article{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(../img/background_localização.png);
+  background-size: cover;
+}
+  
+.localizacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 45px;
+  background: #7e211f;
+  width: 500px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 4px, rgba(241, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin: 20px auto;
+ 
+}
+.localizacao h2{
+  color: #ececec;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+.localizacao form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form label{
+  color: #ececec;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+form input{
+  padding: 15px;
+  outline: none;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+form input:focus{
+  border-radius: 16px;
+}
+form textarea{
+  padding: 10px;
+  outline: none;
+  border: 0;
+  font-size: 15px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+form textarea:focus{
+  border-radius: 16px;
+}
+form button{
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  background: transparent;
+  border: 2px solid #ececec;
+  color: #ececec;
+  transition: all 1s;
+  margin-bottom: 20px;
+}
+form button:hover{
+  background: #f5f5f5;
+  color: #7e211f;
+  border-radius: 16px;
+}
+
+/*Página do Obrigado*/
+
+.main{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+ background: #7e211f;
+ flex-direction: column;
+}
+.text{
+  font-size: 45px;
+  color: #f5f5f5;
+  margin-bottom: 30px;
+}
+.paragrafo{
+  color: #f5f5f5;
+  margin-bottom: 50px;
+}
+.btn{
+  padding: 15px 55px;
+  background: #f5f5f5;
+  text-decoration: none;
+  color: #7e211f;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.btn:hover{
+  border-radius: 16px;
+}

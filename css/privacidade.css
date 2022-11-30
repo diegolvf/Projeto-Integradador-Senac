@@ -1,0 +1,69 @@
+body {
+    background-color: #7e211f;
+}
+
+.sub_titulo {
+    display: flex;  
+    justify-content: center; 
+    color: rgba(132,23,32);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 800px;
+    padding: 30px;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 10px #000;
+    border-radius: 20px;
+}
+
+.secao_titulo {
+    display: flex;  
+    justify-content: center; 
+    color: rgba(132,23,32);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 800px;
+    padding: 30px;
+    margin-top: 70px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 10px #000;
+    border-radius: 20px;
+}
+
+.txt_privacidade {
+    display: flex;
+    color: whitesmoke;
+    text-align: justify;
+    margin: auto 0;
+    padding-top: 50px;
+    padding-right: 400px;
+    padding-left: 400px;
+    padding-bottom: 50px;
+}
+
+.paragrafo {
+    display: flexbox;
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 12pt;
+    line-height: 1.5;
+    margin: 80px 100px 40px 100px;
+}
+
+.links {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12pt;
+    line-height: 1.5;
+    margin: 80px 100px 40px 100px;
+}
+
+.spam {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12pt;
+    line-height: 1.5;
+    margin: 80px 100px 40px 100px;
+}

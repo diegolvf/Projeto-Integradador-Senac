@@ -1,0 +1,134 @@
+.fornecedores_principal {
+    min-width: 500px;
+    max-width: 3900px;
+}
+
+.titulo {
+    display: flex;  
+    justify-content: center; 
+    font-size: 15pt;
+    text-align: center;
+    color: rgba(132,23,32);
+    margin: 50px 450px 50px 450px;
+    padding: 30px 100px 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 10px #000;
+    border-radius: 20px;
+}
+
+
+
+.introducao {
+    color: whitesmoke;
+    font-size: 12pt;
+    text-decoration: none;
+    text-justify: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+    line-height: 1.5;
+}
+
+.fornecedores {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    text-decoration: none;
+    background-color: whitesmoke;
+    box-shadow: 0px 4px 10px #000;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+}
+
+.delpak {
+    display: flex;
+    gap: 90px;
+}
+
+.delpak_logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+   
+    
+}
+
+.delpak_texto {
+    flex: auto;
+    flex-wrap: wrap;
+    color: rgba(132,23,32);
+    text-shadow: 0px 0px 0px #000;
+    font-size: 12pt;
+    text-decoration: none;
+    text-align:justify;
+    margin-top: 100px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}   
+
+.sorocaba_refrescos {
+    display: flex;
+    gap: 90px;
+}
+
+.sorocaba_logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.sorocaba_texto {
+    flex: auto;
+    flex-wrap: wrap;
+    color: rgba(132,23,32);
+    font-size: 12pt;
+    text-decoration: none;
+    text-justify: auto;
+    text-align: justify;
+    text-shadow: 0px 0px 0px #000;
+    margin-top: 90px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+.correto {
+    display: flex;
+    gap: 90px;
+}
+
+.correto_logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.correto_texto {
+    flex: auto;
+    flex-wrap: wrap;
+    color: rgba(132,23,32);
+    text-shadow: 0px 0px 0px #000;
+    font-size: 12pt;
+    text-decoration: none;
+    text-align: justify;
+    margin-top: 160px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
